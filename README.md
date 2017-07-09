@@ -33,5 +33,6 @@ To rebuild them, you need to clone this repository and its submodules :
     git clone https://github.com/peters/curl-for-windows.git compat/curl-for-windows
 
 On Linux, you can use the helper ./build.sh(edit configure.sh and the Makefile.am if required)
+
 On Ubuntu 17, use CFLAGS="-fPIC" CXXFLAGS="-fPIC" ./build.sh
 
